@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stuffy store website</title>
+    <link rel="stylesheet" href="css/main.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" referrerpolicy="no-referrer" />
+
+   
+</head>
+<body class="bg-neutral-50">
+    <header class="bg-yellow-100 fixed w-full top-0 left-0 w-full z-50">
+        <nav class="container relative flex justify-between items-center h-14">
+
+            <div> <!-- for left nav -->
+                <a href="#" class="text-2xl uppercase font-bold text-black ">Logo</a>
+            </div>
+
+            <div> <!-- for right nav -->
+                <ul class="md:flex md:flex-row md:text-center gap-5 hidden md:block">
+                    <li>
+                        <a href="#home" class="font-semibold text-xl hover:border-b-2 hover:border-yellow-400  hover:ease-in duration-200 hover:text-gray-500 transition">Home</a>
+                    </li>
+                    <li>
+                        <a href="#category"  class="font-semibold text-xl hover:border-b-2 hover:border-yellow-500  ease-in duration-200 hover:text-gray-500 transition">Category</a>
+                    </li>
+                    <li>
+                        <a href="#Contact"  class="font-semibold text-xl hover:border-b-2  hover:border-yellow-500  ease-in duration-200 hover:text-gray-500 transition">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="flex flex-row text-center gap-5">
+
+                <!-- searhbox -->
+                <div class="w-full relative ">
+                   <span class="absolute left pt-2 pl-1 ">
+                    <i class="ri-search-line font-semibold text-xl cursor-pointer hover:text-gray-500 "></i>
+                   </span>
+                    <input type="text" class="py-2  rounded-md w-full border border-yellow-400 focus-outline-none focus:ring-2 focus:ring-yellow-400 focus:outline-none placeholder:italic placeholder:pl-6" placeholder="Search products" >
+                </div>
+
+
+                <i class="ri-account-circle-line font-semibold text-xl cursor-pointer hover:text-gray-500"></i>
+                <i class="ri-shopping-cart-2-fill font-semibold text-xl cursor-pointer hover:text-gray-500"></i>
+            </div>
+
+        </nav>
+    </header>
+
+    <main class="mt-[8rem]">
+        <!-- home -->
+       <section id="home"> 
+         
+         <div class="container flex flex-col md:flex md:flex-row items-center gap-10 justify-between ">
+            <div class="mx-auto md:basis-1/2">
+                <img src="images/bag10.jpg" class="border rounded-r-full w-96  hover:scale-105 hover:duration-300">
+            </div>
+            
+
+            <div class="flex flex-col basis-1/5  md:basis-2/5 lg:basis-3/5 md:items-center space-y-4 space-x-5">
+                <h1 class="text-5xl font-bold md:flex md:flex-col md:text-center pl-3 font-serif">Happy Shopping  <i class="ri-heart-line text-amber-950 md:mt-3"></i>
+                   
+                </h1>
+                <p class="text-start md:text-center py-4 leading-5 text-xs mx-auto ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque consectetur explicabo consequuntur odio, amet natus non quisquam praesentium rem inventore veritatis odit assumenda debitis quas? Beatae numquam veniam voluptate voluptas!</p>
+
+                
+            <button class="border border-yellow-200 w-1/4 md:w-2/4 rounded-lg border-2 bg-yellow-200 py-2 md:p-3 md:mx-3 font-sans font-semibold hover:bg-opacity-55 transition hover:duration-300">Shop Here</button>
+            </div>
+
+            <div class="mx-auto md:basis-1/2">
+                <img src="images/shoe2.webp" class="border rounded-l-full w-96 hover:scale-105 hover:duration-300">
+            </div>
+
+            <div>
+
+            </div>
+            </div>
+       </section>
+       <!-- home end-->
+
+      <!--  Category  -->
+
+      <section id="category" class="mt-[8rem] mb-10 space-y-20">
+        <div class="container items-center space-y-2">           
+            <h1 class="text-5xl font-bold uppercase text-center mx-auto font-serif ">
+                <span class=" rounded-l-full bg-yellow-100 py-7 px-2">   
+                choose  </span> your comfy product!</h1>
+            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+        </div>
+      
+        <div class="container flex flex-col gap-8 lg:gap-10 lg:flex-row flex-wrap">
+
+
+          <!--   card 1 -->
+             
+             <a href="stock.html" class="bg-gray-200  flex flex-col p-5 rounded-lg  items-center mx-auto px-10 md:px-5 space-y-1 group">
+                <div>
+                    <img src="images/cup1.jpg" class="w-40  mx-auto md:mx-5 group-hover:scale-95  ease-linear group-hover:duration-200 ">            
+                </div>
+                <p>All stock products
+                    <i class="ri-heart-3-fill"></i>
+                </p>
+
+                <button class="bg-yellow-100 py-1 px-10 rounded-xl group-hover:bg-gray-300 group-hover:duration-500 group-hover:transition group-hover:font-semibold">Click here</button>
+            </a>
+               <!--   card 1 end -->
+
+                 <!--   card 2 -->
+             
+             <a href="bags.html" class="bg-gray-200  flex flex-col p-5  rounded-lg  items-center mx-auto px-10 md:px-5 space-y-1 group">
+                <div>
+                    <img src="images/bag6.jpg" class="w-40 mx-auto md:mx-5 group-hover:scale-95  ease-linear group-hover:duration-200 ">            
+                </div>
+                <p>Style with Bags
+                    <i class="ri-heart-3-fill"></i>
+                </p>
+
+
+                <button  class="bg-yellow-100 py-1 px-10 rounded-xl group-hover:bg-gray-300 group-hover:duration-500 group-hover:transition group-hover:font-semibold">Click here</button>
+            </a>
+               <!--   card 2 end -->
+
+                 <!--   card 3 -->
+             
+             <a href="stationary.html" class="bg-gray-200  flex flex-col p-5 rounded-lg  items-center mx-auto px-10 md:px-5 space-y-1 group">
+                <div>
+                    <img src="images/stationary13.jpg" class="w-40 mx-auto md:mx-5 group-hover:scale-95  ease-linear group-hover:duration-200 ">            
+                </div>
+                <p>Cute Stationaries
+                    <i class="ri-heart-3-fill"></i>
+                </p>
+
+                <button class="bg-yellow-100 py-1 px-10 rounded-xl group-hover:bg-gray-300 group-hover:duration-500 group-hover:transition group-hover:font-semibold">Click here</button>
+            </a>
+               <!--   card 3 end -->
+                  <!--   card 4 -->
+             
+             <a href="sweater.html" class="bg-gray-200  flex flex-col p-5 rounded-lg  items-center mx-auto px-10 md:px-5 space-y-1 group ">
+                <div>
+                    <img src="images/sweater8.webp" class="w-40 mx-auto md:mx-5 group-hover:scale-95  ease-linear hover:duration-200 ">            
+                </div>
+                <p>Winter wears
+                    <i class="ri-heart-3-fill"></i>
+                </p>
+
+                <button class="bg-yellow-100 py-1 px-10 rounded-xl group-hover:bg-gray-300 group-hover:duration-500 group-hover:transition group-hover:font-semibold">Click here</button>
+            </a>
+               <!--   card 4 end -->
+        </div>
+
+        <h2 class="text-2xl font-bold uppercase text-center mx-auto font-serif border-b-4 w-1/2">best selling</h2>
+
+      </section>
+ <!--  Category  end-->
+
+ <!-- form start -->
+  <section id="Contact" class=" container py-16 ">
+
+   <div class="p-10">
+    <h1 class="text-3xl font-bold uppercase text-center mx-auto font-serif mb-5 text-yellow-400">Facing issues?</h1>
+    <p class="text-center text-2xl">Contact us right now</p>
+   </div>
+    <div class="max-w-lg mx-auto shadow px-6 py-7 rounded overflow-hidden shadow-yellow-400">
+        <h2 class="text-3xl font-bold uppercase text-center mx-auto font-serif mb-12">Contact us</h2>
+        
+   
+    
+    <form action="">
+
+        <div class="space-y-4 ">
+
+            <div class="">
+                <label class="mb-2 block text-black">Email Address</label>
+                <input type="email" class="block border w-full border-yellow-200 px-32 py-3 text-yellow-600 text-sm rounded focus:ring-0 focus:border-yellow-400 placeholder:text-gray-400" placeholder="Enter your Email Address">
+            </div>
+
+            <div class="">
+                <label class="mb-2 block text-black">Password</label>
+                <input type="password" class="block border w-full border-yellow-200 px-32 py-3 text-yellow-600 text-sm rounded focus:ring-0 focus:border-yellow-400 placeholder:text-gray-400" placeholder="Enter your Email password">
+            </div>
+
+            <div class="flex justify-between items-center mt-6">
+                 <div class="flex items-center">
+                    <input type="checkbox" id="agreement" class="text-yellow-400 focus:ring-0 rounded-sm cursor-pointer">
+
+                    <label for="agreement" class="text-yellow-400 ml-3 cursor-pointer">Remember me</label>
+                 </div>
+
+                 <a href="" class="text-yellow-400">Forgot password?</a>
+            </div>
+
+            <div>
+                <button type="submit" class="w-full py-2 text-white bg-yellow-400 rounded hover:bg-transparent hover:text-yellow-400 transition uppercase font-medium hover:border hover:border-yellow-400">Login</button>
+            </div>
+
+            <textarea rows="4" class="text-yellow-400 bg-yellow-100 border border-yellow-400 text-sm rounded-lg block w-full p-3 focus:outline-none focus:border-yellow-600" placeholder="Message"></textarea>
+    
+        </div>
+    </form>
+</div>
+  </section>
+ <!-- form start end -->
+
+        
+    </main>
+
+    <footer>
+        <section class="border-t">
+            <div class="container mt-5">
+                <ul class="grid grid-cols-1 items-start gap-5 pb-5 md:grid-cols-2 lg:grid-cols-3 font-serif">
+
+                    <li>
+                        <div class="space-y-3">   
+                            <a href="" class="text-3xl uppercase text-yellow-400">Logo</a>
+                            <p class="text-xs w-1/2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque reprehenderit voluptatum officia voluptatem, consequuntur molestiae dolore culpa aliquam adipisci necessitatibus minima omnis saepe obcaecati natus accusamus veritatis illum aperiam placeat?</p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="flex flex-col gap-3">
+                            <h3 class="text-lg uppercase font-serif text-yellow-400">support</h3>
+                            <a href="" class="text-xs hover:text-yellow-400">FAQ's</a>
+                            <a href="" class="text-xs hover:text-yellow-400">Privacy policy</a>
+                            <a href="" class="text-xs hover:text-yellow-400">Term & condition</a>
+                            <a href="" class="text-xs hover:text-yellow-400">contact</a>
+                        </div>
+                    </li>
+
+                    <li class="space-y-8">
+                        <div class="space-y-2">
+                            <h3 class="text-lg uppercase font-serif text-yellow-400">address</h3>
+                            <i class="ri-map-pin-2-line text-lg text-yellow-400"></i>
+                           Address goes here
+                        </div>
+
+                        <div class="space-y-2">
+                            <h3 class="text-lg uppercase font-serif text-yellow-400">follow us</h3>
+                          <div class="space-x-3">
+                            <i class="ri-instagram-line text-yellow-400 hover:-translate-y-1 ease-in duration-200"></i>
+                            <i class="ri-facebook-circle-line text-yellow-400 hover:-translate-y-1 ease-in duration-200"></i>
+                            <i class="ri-twitter-line text-yellow-400 hover:-translate-y-1 ease-in duration-200"></i>
+                          </div>
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="flex flex-col items-center border-t border-y-gray-400 py-5 md:flex-row md:justify-between">
+                    <p class="text-sm text-gray-400">Bingo Store website by Maheru Mariam</p>
+                    <p class="text-sm text-gray-400">Copyright  © 2024. All rights reserved</p>
+                </div>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>

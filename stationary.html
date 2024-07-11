@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stuffy store website</title>
+    <link rel="stylesheet" href="css/main.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" referrerpolicy="no-referrer" />
+
+   
+</head>
+<body class="bg-neutral-50">
+    <header class="bg-yellow-100 fixed w-full top-0 left-0 w-full z-50">
+        <nav class="container relative flex justify-between items-center h-14">
+
+            <div> <!-- for left nav -->
+                <a href="#" class="text-2xl uppercase font-bold text-black ">Logo</a>
+            </div>
+
+            <div> <!-- for right nav -->
+                <ul class="md:flex md:flex-row md:text-center gap-5 hidden md:block">
+                    <li>
+                        <a href="index.html" class="font-semibold text-xl hover:border-b-2 hover:border-yellow-400  hover:ease-in duration-200 hover:text-gray-500 transition">Home</a>
+                    </li>
+                    <li>
+                        <a href="#category"  class="font-semibold text-xl hover:border-b-2 hover:border-yellow-500  ease-in duration-200 hover:text-gray-500 transition">Category</a>
+                    </li>
+                    <li>
+                        <a href="#Contact"  class="font-semibold text-xl hover:border-b-2  hover:border-yellow-500  ease-in duration-200 hover:text-gray-500 transition">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="flex flex-row text-center gap-5 ">
+
+                <!-- searhbox -->
+                <div class="w-full relative ">
+                   <span class="absolute left pt-2 pl-1 ">
+                    <i class="ri-search-line font-semibold text-xl cursor-pointer hover:text-gray-500 "></i>
+                   </span>
+                    <input type="text" class="py-2 rounded-md w-full border border-yellow-400 focus-outline-none focus:ring-2 focus:ring-yellow-400 focus:outline-none placeholder:italic placeholder:pl-6" placeholder="Search products" >
+                </div>
+
+
+                <i class="ri-account-circle-line font-semibold text-xl cursor-pointer hover:text-gray-500"></i>
+                <i class="ri-shopping-cart-2-fill font-semibold text-xl cursor-pointer hover:text-gray-500"></i>
+            </div>
+
+        </nav>
+    </header>
+
+   
+    <main class="mt-[8rem]">
+        <!-- stationay section -->
+     <section id="bags">
+        <div class="container">
+    
+            <h1 class="md:text-4xl font-bold uppercase text-center mx-auto font-serif mb-6 text-3xl text-yellow-300 border tracking-wider">Cute stationaries</h1>
+    
+            <!--      all cards -->
+                    <div class="grid  lg:grid-cols-4 sm:grid-cols-2 gap-6 mb-10">
+                     <!--  single card -->
+                       <div class="bg-white shadow rounded group p-4 overflow-hidden relative flex flex-wrap justify-center items-center">
+                       <div class="relative">
+                        <img src="images/stationary1.webp" class="w-72 h-72  rounded-lg group-hover:scale-105 group-hover:duration-300 group-hover:transition ">
+                        <img src="images/stationary6.webp" class="w-72 h-72  rounded-lg group-hover:scale-105 group-hover:duration-300 group-hover:transition absolute top-0 opacity-0 group-hover:opacity-100 group-hover:transition">
+    
+                        <!-- hover 3 icon -->
+                        <div class="absolute bg-white  flex items-center justify-center gap-2 top-2 right-2 flex-col rounded-xl p-3 opacity-0 group-hover:opacity-100 transition duration-300">
+                            <a href="" class="text-white text-lg w-9 h-9 rounded-full bg-yellow-200 flex items-center justify-center ">
+                                <i class="ri-search-line"></i>               
+                            </a>
+                            <a href="" class="text-white text-lg w-9 h-9 rounded-full bg-yellow-200 flex items-center justify-center ">
+                                <i class="ri-heart-3-line"></i>               
+                            </a>
+                            <a href="" class="text-white text-lg w-9 h-9 rounded-full bg-yellow-200 flex items-center justify-center ">
+                               <i class="ri-share-forward-line"></i>              
+                            </a>
+                       </div>
+                         <!-- hover 3 icon end -->
+    
+                         <!--  sold out -->
+                       <div class="absolute bg-white  flex items-center justify-center  top-2 left-2  rounded-full p-2 px-4">
+                        sold<br>out
+                       </div>
+                        <!--  sold out end-->
+    
+                       <div class="pt-2">
+                        <h3 class="text-center font-semibold">Yellow hand Bag</h3>
+                        <p class="text-center text-gray-500">In stock</p>
+                        <p class="text-center text-yellow-300 font-bold text-lg">900.00 TK</p>
+                       </div>
+                        </div>
+                       </div>
+                     <!--  single card end-->
+    
+                       <!--  single card -->
+                       <div class="bg-white shadow rounded group p-4 overflow-hidden relative flex flex-wrap justify-center items-center">
+                        <div class="relative">
+                         <img src="images/stationary3.webp" class="w-72 h-72 rounded-lg group-hover:scale-105 group-hover:duration-300 group-hover:transition">
+    
+                         <img src="images/stationary5.webp" class="w-72 h-72  rounded-lg group-hover:scale-105 group-hover:duration-300 group-hover:transition absolute top-0 opacity-0 group-hover:opacity-100 group-hover:transition">
+     
+                         <!-- hover 3 icon -->
+                         <div class="absolute bg-white  flex items-center justify-center gap-2 top-2 right-2 flex-col rounded-xl p-3 opacity-0 group-hover:opacity-100 transition duration-300">
+                             <a href="" class="text-white text-lg w-9 h-9 rounded-full bg-yellow-200 flex items-center justify-center ">
+                                 <i class="ri-search-line"></i>               
+                             </a>
+                             <a href="" class="text-white text-lg w-9 h-9 rounded-full bg-yellow-200 flex items-center justify-center ">
+                                 <i class="ri-heart-3-line"></i>               
+                             </a>
+                             <a href="" class="text-white text-lg w-9 h-9 rounded-full bg-yellow-200 flex items-center justify-center ">
+                                <i class="ri-share-forward-line"></i>              
+                             </a>
+                        </div>
+                          <!-- hover 3 icon end -->
+     
+                          <!--  sold out -->
+                        <div class="absolute bg-white  flex items-center justify-center  top-2 left-2  rounded-full p-4 px-5">
+                            <i class="ri-heart-3-line text-xl text-yellow-400"></i>
+                        </div>
+                         <!--  sold out end-->
+                           
+                        <div class="pt-2">
+                         <h3 class="text-center font-semibold">Yellow hand Bag</h3>
+                         <p class="text-center text-gray-500">In stock</p>
+                         <p class="text-center text-yellow-300 font-bold text-lg">900.00 TK</p>
+                        </div>
+                         </div>
+                        </div>
+                      <!--  single card end-->
+    
+                                <!--  single card -->
+                                <div class="bg-white shadow rounded group p-4 overflow-hidden relative flex flex-wrap justify-center items-center">
+                                    <div class="relative">
+                                     <img src="images/stationary7.jpg" class="w-72 h-72  rounded-lg group-hover:scale-105 group-hover:duration-300 group-hover:transition">
+    
+                                     <img src="images/stationary4.webp" class="w-72 h-72  rounded-lg group-hover:scale-105 group-hover:duration-300 group-hover:transition absolute top-0 opacity-0 group-hover:opacity-100 group-hover:transition">
+                 
+                                     <!-- hover 3 icon -->
+                                     <div class="absolute bg-white  flex items-center justify-center gap-2 top-2 right-2 flex-col rounded-xl p-3 opacity-0 group-hover:opacity-100 transition duration-300">
+                                         <a href="" class="text-white text-lg w-9 h-9 rounded-full bg-yellow-200 flex items-center justify-center ">
+                                             <i class="ri-search-line"></i>               
+                                         </a>
+                                         <a href="" class="text-white text-lg w-9 h-9 rounded-full bg-yellow-200 flex items-center justify-center ">
+                                             <i class="ri-heart-3-line"></i>               
+                                         </a>
+                                         <a href="" class="text-white text-lg w-9 h-9 rounded-full bg-yellow-200 flex items-center justify-center ">
+                                            <i class="ri-share-forward-line"></i>              
+                                         </a>
+                                    </div>
+                                      <!-- hover 3 icon end -->
+                 
+                                      <!--  sold out -->
+                                    <div class="absolute bg-white  flex items-center justify-center  top-2 left-2  rounded-full p-2 px-4">
+                                     sold<br>out
+                                    </div>
+                                     <!--  sold out end-->
+                                       
+                                    <div class="pt-2">
+                                     <h3 class="text-center font-semibold">Yellow hand Bag</h3>
+                                     <p class="text-center text-gray-500">In stock</p>
+                                     <p class="text-center text-yellow-300 font-bold text-lg">900.00 TK</p>
+                                    </div>
+                                     </div>
+                                    </div>
+                                  <!--  single card end-->
+    
+                            <!--  single card -->
+                       <div class="bg-white shadow rounded group p-4 overflow-hidden relative flex flex-wrap justify-center items-center">
+                        <div class="relative">
+                         <img src="images/pen2.webp" class="w-72 h-72  rounded-lg group-hover:scale-105 group-hover:duration-300 group-hover:transition">
+                         <img src="images/pen3.webp" class="w-72 h-72  rounded-lg group-hover:scale-105 group-hover:duration-300 group-hover:transition absolute top-0 opacity-0 group-hover:opacity-100 group-hover:transition">
+                        
+                         
+    
+     
+                         <!-- hover 3 icon -->
+                         <div class="absolute bg-white  flex items-center justify-center gap-2 top-2 right-2 flex-col rounded-xl p-3 opacity-0 group-hover:opacity-100 transition duration-300">
+                             <a href="" class="text-white text-lg w-9 h-9 rounded-full bg-yellow-200 flex items-center justify-center ">
+                                 <i class="ri-search-line"></i>               
+                             </a>
+                             <a href="" class="text-white text-lg w-9 h-9 rounded-full bg-yellow-200 flex items-center justify-center ">
+                                 <i class="ri-heart-3-line"></i>               
+                             </a>
+                             <a href="" class="text-white text-lg w-9 h-9 rounded-full bg-yellow-200 flex items-center justify-center ">
+                                <i class="ri-share-forward-line"></i>              
+                             </a>
+                        </div>
+                          <!-- hover 3 icon end -->
+     
+                          <!--  sold out -->
+                        <div class="absolute bg-white  flex items-center justify-center  top-2 left-2  rounded-full p-2 px-4">
+                         sold<br>out
+                        </div>
+                         <!--  sold out end-->
+                           
+                        <div class="pt-2">
+                         <h3 class="text-center font-semibold">Yellow hand Bag</h3>
+                         <p class="text-center text-gray-500">In stock</p>
+                         <p class="text-center text-yellow-300 font-bold text-lg">900.00 TK</p>
+                        </div>
+                         </div>
+                        </div>
+                      <!--  single card end-->
+    
+                            <!--  single card -->
+                            <div class="bg-white shadow rounded group p-4 overflow-hidden relative flex flex-wrap justify-center items-center">
+                                <div class="relative">
+                                 <img src="images/stationary10.jpg" class="w-72 h-72  rounded-lg group-hover:scale-105 group-hover:duration-300 group-hover:transition">
+    
+                                 <img src="images/pen1.webp" class="w-72 h-72  rounded-lg group-hover:scale-105 group-hover:duration-300 group-hover:transition absolute top-0 opacity-0 group-hover:opacity-100 group-hover:transition">
+             
+                                 <!-- hover 3 icon -->
+                                 <div class="absolute bg-white  flex items-center justify-center gap-2 top-2 right-2 flex-col rounded-xl p-3 opacity-0 group-hover:opacity-100 transition duration-300">
+                                     <a href="" class="text-white text-lg w-9 h-9 rounded-full bg-yellow-200 flex items-center justify-center ">
+                                         <i class="ri-search-line"></i>               
+                                     </a>
+                                     <a href="" class="text-white text-lg w-9 h-9 rounded-full bg-yellow-200 flex items-center justify-center ">
+                                         <i class="ri-heart-3-line"></i>               
+                                     </a>
+                                     <a href="" class="text-white text-lg w-9 h-9 rounded-full bg-yellow-200 flex items-center justify-center ">
+                                        <i class="ri-share-forward-line"></i>              
+                                     </a>
+                                </div>
+                                  <!-- hover 3 icon end -->
+             
+                                  <!--  sold out -->
+                                <div class="absolute bg-white  flex items-center justify-center  top-2 left-2  rounded-full p-2 px-4">
+                                 sold<br>out
+                                </div>
+                                 <!--  sold out end-->
+                                   
+                                <div class="pt-2">
+                                 <h3 class="text-center font-semibold">Yellow hand Bag</h3>
+                                 <p class="text-center text-gray-500">In stock</p>
+                                 <p class="text-center text-yellow-300 font-bold text-lg">900.00 TK</p>
+                                </div>
+                                 </div>
+                                </div>
+                              <!--  single card end-->
+    
+                                    <!--  single card -->
+                       <div class="bg-white shadow rounded group p-4 overflow-hidden relative flex flex-wrap justify-center items-center">
+                        <div class="relative">
+                         <img src="images/stationary11.jpg" class="w-72 h-72  rounded-lg group-hover:scale-105 group-hover:duration-300 group-hover:transition">
+    
+                         <img src="images/pen4.jpg" class="w-72 h-72  rounded-lg group-hover:scale-105 group-hover:duration-300 group-hover:transition absolute top-0 opacity-0 group-hover:opacity-100 group-hover:transition">
+     
+                         <!-- hover 3 icon -->
+                         <div class="absolute bg-white  flex items-center justify-center gap-2 top-2 right-2 flex-col rounded-xl p-3 opacity-0 group-hover:opacity-100 transition duration-300">
+                             <a href="" class="text-white text-lg w-9 h-9 rounded-full bg-yellow-200 flex items-center justify-center ">
+                                 <i class="ri-search-line"></i>               
+                             </a>
+                             <a href="" class="text-white text-lg w-9 h-9 rounded-full bg-yellow-200 flex items-center justify-center ">
+                                 <i class="ri-heart-3-line"></i>               
+                             </a>
+                             <a href="" class="text-white text-lg w-9 h-9 rounded-full bg-yellow-200 flex items-center justify-center ">
+                                <i class="ri-share-forward-line"></i>              
+                             </a>
+                        </div>
+                          <!-- hover 3 icon end -->
+     
+                          <!--  sold out -->
+                        <div class="absolute bg-white  flex items-center justify-center  top-2 left-2  rounded-full p-2 px-4">
+                         sold<br>out
+                        </div>
+                         <!--  sold out end-->
+                           
+                        <div class="pt-2">
+                         <h3 class="text-center font-semibold">Yellow hand Bag</h3>
+                         <p class="text-center text-gray-500">In stock</p>
+                         <p class="text-center text-yellow-300 font-bold text-lg">900.00 TK</p>
+                        </div>
+                         </div>
+                        </div>
+                      <!--  single card end-->
+    
+                            <!--  single card -->
+                            <div class="bg-white shadow rounded group p-4 overflow-hidden relative flex flex-wrap justify-center items-center">
+                                <div class="relative">
+                                 <img src="images/pen1.webp" class="w-72 h-72  rounded-lg group-hover:scale-105 group-hover:duration-300 group-hover:transition">
+    
+                                 <img src="images/bag12.webp" class="w-72 h-72  rounded-lg group-hover:scale-105 group-hover:duration-300 group-hover:transition absolute top-0 opacity-0 group-hover:opacity-100 group-hover:transition">
+             
+                                 <!-- hover 3 icon -->
+                                 <div class="absolute bg-white  flex items-center justify-center gap-2 top-2 right-2 flex-col rounded-xl p-3 opacity-0 group-hover:opacity-100 transition duration-300">
+                                     <a href="" class="text-white text-lg w-9 h-9 rounded-full bg-yellow-200 flex items-center justify-center ">
+                                         <i class="ri-search-line"></i>               
+                                     </a>
+                                     <a href="" class="text-white text-lg w-9 h-9 rounded-full bg-yellow-200 flex items-center justify-center ">
+                                         <i class="ri-heart-3-line"></i>               
+                                     </a>
+                                     <a href="" class="text-white text-lg w-9 h-9 rounded-full bg-yellow-200 flex items-center justify-center ">
+                                        <i class="ri-share-forward-line"></i>              
+                                     </a>
+                                </div>
+                                  <!-- hover 3 icon end -->
+             
+                                  <!--  sold out -->
+                                <div class="absolute bg-white  flex items-center justify-center  top-2 left-2  rounded-full p-2 px-4">
+                                 sold<br>out
+                                </div>
+                                 <!--  sold out end-->
+                                   
+                                <div class="pt-2">
+                                 <h3 class="text-center font-semibold">Yellow hand Bag</h3>
+                                 <p class="text-center text-gray-500">In stock</p>
+                                 <p class="text-center text-yellow-300 font-bold text-lg">900.00 TK</p>
+                                </div>
+                                 </div>
+                                </div>
+                              <!--  single card end-->
+         <!--  single card -->
+         <div class="bg-white shadow rounded group p-4 overflow-hidden relative flex flex-wrap justify-center items-center">
+            <div class="relative">
+             <img src="images/stationary13.jpg" class="w-72 h-72  rounded-lg group-hover:scale-105 group-hover:duration-300 group-hover:transition">
+    
+             <img src="images/pen4.jpg" class="w-72 h-72  rounded-lg group-hover:scale-105 group-hover:duration-300 group-hover:transition absolute top-0 opacity-0 group-hover:opacity-100 group-hover:transition">
+    
+             <!-- hover 3 icon -->
+             <div class="absolute bg-white  flex items-center justify-center gap-2 top-2 right-2 flex-col rounded-xl p-3 opacity-0 group-hover:opacity-100 transition duration-300">
+                 <a href="" class="text-white text-lg w-9 h-9 rounded-full bg-yellow-200 flex items-center justify-center ">
+                     <i class="ri-search-line"></i>               
+                 </a>
+                 <a href="" class="text-white text-lg w-9 h-9 rounded-full bg-yellow-200 flex items-center justify-center ">
+                     <i class="ri-heart-3-line"></i>               
+                 </a>
+                 <a href="" class="text-white text-lg w-9 h-9 rounded-full bg-yellow-200 flex items-center justify-center ">
+                    <i class="ri-share-forward-line"></i>              
+                 </a>
+            </div>
+              <!-- hover 3 icon end -->
+    
+              <!--  sold out -->
+            <div class="absolute bg-white  flex items-center justify-center  top-2 left-2  rounded-full p-2 px-4">
+             sold<br>out
+            </div>
+             <!--  sold out end-->
+               
+            <div class="pt-2">
+             <h3 class="text-center font-semibold">Yellow hand Bag</h3>
+             <p class="text-center text-gray-500">In stock</p>
+             <p class="text-center text-yellow-300 font-bold text-lg">900.00 TK</p>
+            </div>
+             </div>
+            </div>
+          <!--  single card end-->
+                    </div>
+            <!--      all cards end -->
+                
+            <div class="flex justify-center mb-10">
+                <button class="border border-yellow-200 w-1/4  rounded-lg border-2 bg-yellow-200 py-2  font-sans font-semibold hover:bg-opacity-55 transition hover:duration-300 md:w-1/5">Load More</button>
+            </div>
+    
+        </div>
+         </section>
+        <!-- stationay section end-->
+    </main>
+</body>
+</html>
